@@ -63,7 +63,7 @@ Set this to nil or the empty string to create them directly in
   :type '(choice (const :tag "Org-roam root" nil) directory)
   :group 'org-ocr-import)
 
-(defcustom org-ocr-import-tags '("ocr" "handwritten")
+(defcustom org-ocr-import-tags '("ocr")
   "Tags added to imported OCR notes.
 For new files these become file tags.  For imports into an existing file,
 they become tags on the inserted OCR heading."
