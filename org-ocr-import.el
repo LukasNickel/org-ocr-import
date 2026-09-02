@@ -136,7 +136,7 @@ Set to nil to search only by host."
   :type 'boolean
   :group 'org-ocr-import)
 
-(defconst org-ocr-import--bundle-kind "org-ocr-import-bundle")
+(defconst org-ocr-import--bundle-kind "handwritten-ocr-import-bundle")
 (defconst org-ocr-import--bundle-schema 1)
 
 (defun org-ocr-import--get (key object)
